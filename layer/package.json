@@ -4,6 +4,8 @@
   "version": "0.0.1",
   "main": "./nuxt.config.ts",
   "files": [
+    "shared",
+    "app",
     "components",
     "composables",
     "layouts",
