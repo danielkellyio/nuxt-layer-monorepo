@@ -6,13 +6,12 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'Release v1'
-  icon: '🎉'
+  title: 'A Nuxt Layer Template'
   to: https://shadcn-docs-nuxt.vercel.app/blog/v1
   target: _blank
 actions:
   - name: Documentation
-    to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
+    to: /getting-started/introduction
   - name: GitHub
     variant: outline
     to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
@@ -20,9 +19,9 @@ actions:
 ---
 
 #title
-Welcome to shadcn-docs-nuxt
+Nuxt Mono Layer
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+A pnpm monorepo for developing a reusable Nuxt layer with documentation and playground.
 ::
 
