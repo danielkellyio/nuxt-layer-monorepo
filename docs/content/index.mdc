@@ -7,14 +7,14 @@ navigation: false
 ---
 announcement:
   title: 'A Nuxt Layer Template'
-  to: https://shadcn-docs-nuxt.vercel.app/blog/v1
+  to: https://github.com/danielkellyio/nuxt-layer-monorepo
   target: _blank
 actions:
   - name: Documentation
     to: /getting-started/introduction
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/danielkellyio/nuxt-layer-monorepo
     leftIcon: 'lucide:github'
 ---
 
@@ -22,6 +22,6 @@ actions:
 Nuxt Mono Layer
 
 #description
-A pnpm monorepo for developing a reusable Nuxt layer with documentation and playground.
+A pnpm monorepo for developing reusable Nuxt layers with docs and playground.
 ::
 
