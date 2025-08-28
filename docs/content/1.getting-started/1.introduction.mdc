@@ -1,16 +1,21 @@
-# Nuxt Layer Development Monorepo
+---
+title: Introduction
+description: A pnpm monorepo for developing a single reusable Nuxt layer with documentation and playground.
+icon: lucide:info
+---
 
-A pnpm monorepo for developing a single reusable Nuxt layer with documentation and playground.
+
 
 ## Structure
 
 ```
 ├── layer/              # The Nuxt layer package
 ├── playground/         # Development playground for testing the layer
-├── docs/              # Documentation site (Nuxt Content)
+├── docs/              # Documentation site (thanks shadcn-docs-nuxt!)
 ├── pnpm-workspace.yaml # Workspace configuration
 └── package.json       # Root workspace config
 ```
+[Documentation Template Thanks to shadcn-docs-nuxt](https://shadcn-docs-nuxt.vercel.app)
 
 ## Quick Start
 
@@ -108,13 +113,7 @@ pnpm layer:publish
 
 ## Documentation
 
-The documentation site is built with Nuxt Content and includes:
-
-- Layer documentation and examples
-- API references
-- Usage guides
-
-Visit the docs at http://localhost:3000 when running `pnpm docs:dev`.
+The documentation site is built with [shadcn-docs-nuxt template](https://shadcn-docs-nuxt.vercel.app)
 
 ## Requirements
 

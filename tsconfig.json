@@ -1,3 +1,9 @@
 {
-  "extends": "./.playground/.nuxt/tsconfig.json"
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@my-org/nuxt-layer-hello-world": ["./layer"],
+      "@my-org/nuxt-layer-hello-world/*": ["./layer/*"]
+    }
+  }
 }

@@ -1,24 +1,45 @@
-node_modules
-*.log
-.nuxt
-nuxt.d.ts
-.output
-.data
+# Nuxt
+.nuxt/
+.output/
 .env
-package-lock.json
-framework
-dist
-.DS_Store
+.env.*
 
-# Yarn
-.yarn/cache
-.yarn/*state*
+# Dependencies
+node_modules/
+pnpm-lock.yaml
 
-# Local History
-.history
+# Build outputs
+dist/
+build/
 
-# VSCode
+# IDE
 .vscode/
-
-# JetBrains/WebStorm
 .idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+*.lcov
+
+# Temporary folders
+tmp/
+temp/
