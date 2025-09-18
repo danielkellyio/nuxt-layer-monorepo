@@ -20,10 +20,10 @@
     "layer:generate": "pnpm --filter layer run generate",
     "layer:preview": "pnpm --filter layer run preview",
     "layer:publish": "pnpm --filter layer run publish",
+    "layer:typecheck": "pnpm --filter ./layer run typecheck",
     "test": "pnpm prepare && vitest run",
     "test:watch": "pnpm prepare && vitest",
-    "lint": "pnpm -r lint",
-    "type-check": "pnpm -r type-check"
+    "lint": "pnpm -r lint"
   },
   "devDependencies": {
     "@my-org/nuxt-layer-hello-world": "workspace:*",
