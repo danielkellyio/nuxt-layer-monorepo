@@ -21,7 +21,7 @@
     "build": "nuxt build",
     "lint": "eslint .",
     "type-check": "vue-tsc --noEmit",
-    "publish": "npm publish --access public"
+    "publish": "npm publish"
   },
   "peerDependencies": {
     "nuxt": "^4.0.0"

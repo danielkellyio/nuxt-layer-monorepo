@@ -108,12 +108,17 @@ pnpm play:build
 
 ### Publishing the Layer
 
-When ready to publish:
+Publish a private package:
 
 ```bash
 # Build and publish the layer
 pnpm layer:publish
 ```
+
+Publish a public package:
+
+1. In `layer/package.json`, update the `publish` command to `npm publish --access public`
+2. Run `pnpm layer:publish`
 
 ## Documentation
 
