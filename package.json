@@ -20,8 +20,8 @@
     "layer:generate": "pnpm --filter layer run generate",
     "layer:preview": "pnpm --filter layer run preview",
     "layer:publish": "pnpm --filter layer run publish",
-    "test": "pnpm play:prepare && vitest run",
-    "test:watch": "pnpm play:prepare && vitest",
+    "test": "pnpm prepare && vitest run",
+    "test:watch": "pnpm prepare && vitest",
     "lint": "pnpm -r lint",
     "type-check": "pnpm -r type-check"
   },
